@@ -1,0 +1,27 @@
+# Maven build 관련 파일
+target/
+build/
+
+# IntelliJ IDEA 설정 파일
+.idea/
+*.iml
+
+# 로그 파일
+*.log
+
+# OS 및 기타 임시 파일
+.DS_Store
+Thumbs.db
+
+# 배포 관련 임시 디렉토리 또는 파일
+tomcat.*/  # 예: tomcat.8081/
+*.war
+*.ear
+
+# Maven Wrapper
+.mvn/
+mvnw
+mvnw.cmd
+
+# 외부 라이브러리
+extensions/
